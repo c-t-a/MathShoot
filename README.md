@@ -1,4 +1,4 @@
-# MathShoot
+# <img src="images/basketball.svg" width="30px"> MathShoot
 This android game is built for educational purpose. It is about fundamental aspect of mathematics. It is designed to help children in building up quick mathematical thinking and improve their memory.
 
 ## Built with
