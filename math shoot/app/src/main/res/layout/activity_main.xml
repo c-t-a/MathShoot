@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/Black">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/basketball_design"/>
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/button_info"
+        android:onClick="ShowDescription"/>
+    <LinearLayout
+        android:layout_width="175dp"
+        android:layout_height="160dp"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:background="@android:color/transparent">
+        <Button
+            android:layout_width="175dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_play"
+            android:onClick="GoLevel"/>
+<!--        <Button-->
+<!--            android:layout_width="175dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:background="@drawable/button_score"-->
+<!--            android:onClick="GoScore"/>-->
+        <Button
+            android:layout_width="175dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_setting"
+            android:onClick="GoSetting"/>
+    </LinearLayout>
+
+</RelativeLayout>

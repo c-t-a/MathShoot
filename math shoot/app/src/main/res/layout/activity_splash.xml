@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity"
+    android:background="@color/Black">
+
+    <ImageView
+        android:id="@+id/hoopImage"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/splash1"/>
+
+    <TextView
+        android:id="@+id/gameText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/bangers"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="@color/colorMain"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/peopleImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/splash2"/>
+
+</RelativeLayout>

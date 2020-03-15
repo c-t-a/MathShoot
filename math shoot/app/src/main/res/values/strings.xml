@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Math Shoot</string>
+    <!-- For Menu Activity -->
+    <string name="menu_play">Play</string>
+    <string name="menu_score">Score</string>
+    <string name="menu_setting">Setting</string>
+    <!-- For Level Activity -->
+    <string name="choose_level">Choose Level</string>
+    <string name="hint">Hint: You can change the game mode in the setting</string>
+    <string name="level_1">1</string>
+    <string name="level_2">2</string>
+    <string name="level_3">3</string>
+    <string name="level_4">4</string>
+    <string name="level_5">5</string>
+    <string name="level_6">6</string>
+    <string name="level_7">7</string>
+    <string name="level_8">8</string>
+    <string name="level_9">9</string>
+    <string name="level_10">10</string>
+    <!-- For Game Activity -->
+    <string name="game_timer">Time Left</string>
+    <string name="game_score">Score</string>
+    <string name="game_question">Question?</string>
+    <string name="game_description">To play the game, player need to drag basketball and drop it into the hoop.</string>
+    <!-- For Dialog Activity -->
+    <string name="dialog_menu">Go Menu</string>
+    <!-- For Score Activity -->
+    <string name="score_text">Highest Scores</string>
+    <!-- For Setting Activity-->
+    <string name="setting_sound">Game Sound</string>
+    <string name="setting_level">Choose Level</string>
+    <string name="setting_radioEasy">Easy</string>
+    <string name="setting_radioHard">Hard</string>
+</resources>
